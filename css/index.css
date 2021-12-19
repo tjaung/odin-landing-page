@@ -1,0 +1,114 @@
+
+
+/* HEADER: NAV BAR => nav items */
+header{
+    background: #1F2937;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav-title{
+    color: #F9FAF8;
+    size: 24px;
+}
+
+.nav-items-box{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background: grey;
+    color: #E5E7EB;
+    size: 18px;
+    justify-content: space-between;
+}
+
+
+/* BODY */
+
+/* First Part: Main Div => main message & main image */
+.body-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background: #1F2937;
+}
+
+#body1-1{
+    background: grey;
+    color: #F9FAF8;
+    size: 48px;
+    font-style: bold;
+}
+
+#body-1-btn{
+    color: red;
+}
+
+#body1-2{
+    background: white;
+}
+
+#body-1-img{
+    max-height: 160px;
+    max-width: 200px;
+}
+
+
+
+/* Second part: Images with texts explaining */
+.body-2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.body-2-img-container{
+    display: flex;
+    flex-direction: row;
+    background: honeydew;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.body-2 h2{
+    color: #1F2937;
+    font-style: extra-bold;
+    size: 36px;
+}
+
+.img-info{
+    border-radius: 10%;
+    max-height: 120px;
+    max-width: 120px;
+}
+
+
+/* Third part: some dumbass quote to seem smart and inspiring */
+.body-3{
+    background: #E5E7EB;
+    size: 36px;
+    font-style: italics;
+    color: #1F2937;
+    text-align: center;
+}
+
+.body-3 p{
+    size: 22px;
+    font-style: bold;
+    text-align: right;
+}
