@@ -46,15 +46,26 @@ header{
     background: #1F2937;
 }
 
-#body1-1{
-    background: grey;
+
+
+.body1-main-message{
+    font-size: 48px;
+    font-weight: bold;
     color: #F9FAF8;
-    size: 48px;
-    font-style: bold;
 }
 
-#body-1-btn{
-    color: red;
+
+.body1-secondary-message{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+button{
+    color: #E5E7EB;
+    font-size: 18px;
+    border-radius: 10%;
+    background-color: #3882F6;
 }
 
 #body1-2{
@@ -64,6 +75,7 @@ header{
 #body-1-img{
     max-height: 160px;
     max-width: 200px;
+    border: royalblue;
 }
 
 
@@ -79,20 +91,21 @@ header{
 .body-2-img-container{
     display: flex;
     flex-direction: row;
-    background: honeydew;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    padding-bottom: 80px;
 }
 
 .body-2 h2{
+    padding-top: 60px;
     color: #1F2937;
     font-style: extra-bold;
     size: 36px;
 }
 
 .img-info{
-    border-radius: 10%;
+    border-radius: 15%;
     max-height: 120px;
     max-width: 120px;
 }
@@ -100,15 +113,55 @@ header{
 
 /* Third part: some dumbass quote to seem smart and inspiring */
 .body-3{
-    background: #E5E7EB;
     size: 36px;
     font-style: italics;
     color: #1F2937;
     text-align: center;
+    background-color: #E5E7EB;
+    padding: 60px 20px 40px 20px;
 }
 
 .body-3 p{
     size: 22px;
     font-style: bold;
-    text-align: right;
+}
+
+
+
+/* Fourth part: footer like thing but not really a footer */
+.body-4{
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+ 
+}
+
+.body4-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 6%;
+    height: 100px;
+}
+
+.body4-container h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    background: #1F2937;
+    height: 60px;
+    color:#F9FAF8;
+    justify-content: center;
+    align-items:center;
 }
